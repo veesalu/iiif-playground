@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>IIIF playground</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://unpkg.com/@cogapp/storiiies-viewer@latest/dist/storiiies-viewer.css">
+<script src="https://unpkg.com/@cogapp/storiiies-viewer@latest/dist/umd/storiiies-viewer.js"></script>
 
+<style>
+* {
+  box-sizing: border-box;
+  font-family: Raleway, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Raleway, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #1B1D28;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #D0E1F0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #F6F8F5;
+  color: #1B1D28;
+}
+
+.content {
+  background-color: #1B1D28;
+  color: #D0E1F0;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #1B1D28;
+  color: #D0E1F0;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="https://veesalu.github.io/iiif-playground/home.html">Home</a>
+  <a href="https://github.com/veesalu">Profile</a>
+</div>
+
+<div class="content">
+  <h2>StoriiiesViewer</h2>
+  <p>IIIF based storytelling viewer</p>
+</div>
+
+<div id="viewer"></div>
+
+<div class="footer">
+  <p>veesalu</p>
+</div>
+
+</body>
+</html>
